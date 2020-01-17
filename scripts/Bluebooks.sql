@@ -17,6 +17,51 @@ insert into Bluebooks ( title, pub_date) values ('Cent anni di solitudine', '199
 insert into Bluebooks ( title, pub_date) values ('Delitto e castigo', '1982-08-08');
 insert into Bluebooks ( title, pub_date) values ('Il decamerone', '1995-12-24');
 
-select * from bluebooks;
+update Bluebooks
+set author_id = 1
+where book_id = 1; 
 
+update Bluebooks
+set author_id = 2
+where book_id = 2; 
+
+update Bluebooks
+set author_id = 3
+where book_id = 3;
+
+update Bluebooks
+set author_id = 4
+where book_id = 4;
+
+update Bluebooks
+set pub_id = 1
+where book_id = 1;
+
+update Bluebooks
+set pub_id = 2
+where book_id = 2;
+
+update Bluebooks
+set pub_id = 3
+where book_id = 3;
+
+update Bluebooks
+set pub_id = 4
+where book_id = 4;
+
+update Bluebooks
+set genre_id = 1
+where book_id = 1;
+
+update Bluebooks
+set genre_id = 2
+where book_id = 2;
+
+update Bluebooks
+set genre_id = 3
+where book_id = 3;
+
+update Bluebooks
+set genre_id = 4
+where book_id = 4;
 

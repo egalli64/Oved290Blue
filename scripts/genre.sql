@@ -4,7 +4,7 @@ drop table if exists genres;
 
 create table genres(
 genre_id integer primary key auto_increment,
-type varchar(20));
+genre_type varchar(20));
 
 insert into genres(genre_type)
 values('English literature');
